@@ -12,6 +12,9 @@ import traceback
 import inspect
 from paginator import PaginatorSession
 
+from dotenv import load_dotenv
+load_dotenv()
+
 #import neverSleep
 
 #neverSleep.awake(
@@ -250,7 +253,7 @@ async def status_change():
 
 if "nowebserver" not in sys.argv:
     keep_alive()  # Starts a webserver to be pinged.
-token = os.environ.get("DISCORD_BOT_SECRET")
+token = os.getenv("DISCORD_BOT_SECRET")
 bot.run(token)  # Starts the bot
 # try:
 #     bot.run(token)  # Starts the bot

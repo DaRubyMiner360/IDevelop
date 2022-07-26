@@ -1,0 +1,30 @@
+{
+    "920305118027608115": {
+        "projects": {
+            "celestial-reawakening": {
+                "name": "Celestial Reawakening",
+                "description": "",
+                "channels": {
+                    "idea": [
+                        965698589110177872
+                    ],
+                    "bugreport": [
+                        965708855688458260
+                    ],
+                    "commission": [],
+                    "log": []
+                },
+                "ideas": {},
+                "bugreports": {}
+                "commissions": {}
+            }
+        },
+        "channels": {
+            "commission": [],
+            "log": [
+                920507499533193228
+            ]
+        },
+        "commissions": {}
+    }
+}
